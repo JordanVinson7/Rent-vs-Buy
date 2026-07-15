@@ -9,7 +9,7 @@ housing invests the surplus in a global index fund.
 Built as a Python package with an interactive Streamlit dashboard, a demo
 notebook, and a test suite.
 
-![Dashboard](Dashboard.png)
+![Dashboard](Assets/Dashboard.png)
 
 ## The model
 
