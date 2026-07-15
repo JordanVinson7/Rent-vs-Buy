@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+rent_vs_buy/__init__.py
+rent_vs_buy/config.py
+rent_vs_buy/mortgage.py
+rent_vs_buy/plots.py
+rent_vs_buy/simulation.py
+rent_vs_buy/stamp_duty.py
+rent_vs_buy.egg-info/PKG-INFO
+rent_vs_buy.egg-info/SOURCES.txt
+rent_vs_buy.egg-info/dependency_links.txt
+rent_vs_buy.egg-info/requires.txt
+rent_vs_buy.egg-info/top_level.txt
+tests/test_rent_vs_buy.py

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rent-vs-buy"
+version = "0.1.0"
+description = "A UK rent-and-invest vs buy wealth comparison model"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "pandas>=2.1", "plotly>=5.18"]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.31"]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+include = ["rent_vs_buy*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
