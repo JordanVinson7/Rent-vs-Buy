@@ -32,6 +32,13 @@ The key design decision is **symmetry**: both people have the same monthly
 housing budget — `max(rent, owner's outgoings)` — and the surplus is always
 invested by whoever is under budget. Neither side gets free money.
 
+## Validation
+
+The engine is validated against an independent third-party UK calculator:
+stamp duty, annuity payments, and amortisation agree to the penny, and the
+headline results reconcile to within 0.7% after correcting an indexing
+inconsistency found in the reference — see [`notebooks/validation.ipynb`](notebooks/validation.ipynb).
+
 ## Results at the default assumptions
 
 £350k house, 10% deposit, 4.5% mortgage over 30 years, £1,500/month rent
